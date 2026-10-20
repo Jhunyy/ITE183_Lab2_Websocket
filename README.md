@@ -142,13 +142,13 @@ This demonstrates real-time communication between multiple clients through the W
 
 ### 3. Testing the Custom 404 Page
 
-Open an unsupported route by adding `/test` to the URL, for example:
+Open an unsupported route by adding `/home` to the URL, for example:
 
 ```
-http://localhost:8000/test
+http://localhost:8000/home
 ```
 
-In Codespaces, use `https://YOUR-CODESPACE-8000.app.github.dev/test` and replace the example domain with your actual URL.
+In Codespaces, use `https://YOUR-CODESPACE-8000.app.github.dev/home` and replace the example domain with your actual URL.
 
 The server displays the custom 404 Not Found page because the route is not mapped to the home page.
 
